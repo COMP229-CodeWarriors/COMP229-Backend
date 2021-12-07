@@ -1,10 +1,10 @@
 
-var MongoClient = require('mongodb').MongoClient;
+var MongoClient = require('mongoose').MongoClient;
 let express = require('express');
 let router = express.Router();
 let mongoose = require('mongoose');
 let DB = require('../config/db');
-var mongo = require('mongodb');
+var mongo = require('mongoose');
 //Create reference to DB schema
 
 let Survey = require('../models/survey');
