@@ -1,4 +1,4 @@
-var MongoClient = require('mongoose').MongoClient;
+var MongoClient = require('mongodb').MongoClient;
 
 let express = require('express');
 let router = express.Router();
