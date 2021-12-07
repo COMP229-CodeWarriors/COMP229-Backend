@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e3ed1ed-4db7-48f2-877e-ba6089cbf228" name="Default Changelist" comment="" />
+    <list default="true" id="7e3ed1ed-4db7-48f2-877e-ba6089cbf228" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/views/auth/login.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/server/views/auth/login.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/views/auth/register.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/server/views/auth/register.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/views/error.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/server/views/error.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/server/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/views/partials/footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/server/views/partials/footer.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/views/partials/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/server/views/partials/header.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/views/survey/add.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/server/views/survey/add.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/views/survey/edit.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/server/views/survey/edit.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/views/survey/list.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/server/views/survey/list.ejs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/diaryyy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -42,6 +53,8 @@
       <workItem from="1638003617163" duration="19147000" />
       <workItem from="1638368555364" duration="16966000" />
       <workItem from="1638627994387" duration="7072000" />
+      <workItem from="1638878764815" duration="641000" />
+      <workItem from="1638883762402" duration="148000" />
     </task>
     <servers />
   </component>

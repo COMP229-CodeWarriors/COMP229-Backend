@@ -1,52 +1,52 @@
-<%- include ../partials/header.ejs %>
-
-<!--Main content-->
-
-<main class = "container">
-<div class="row">
-  <div class="col-md-offset-3 col-md-20">
-    <h1><%= title%></h1>
-
-    <a href="/surveylist/add" class="btn btn-primary" role="button">
-    <i class="fas fa-plus-circle"></i> Add Survey </a>
-    <br>
-    <table class="table table-bordered table-striped hover">
-      <!--HEader row-->
-      <tr>
-        <th class="text-center">Survey Name</th>
-        <th class="text-center">Desciption</th>
-        <th class="text-center">Created Date</th>
-        <th class="text-center">Expiry Date</th>
-        <th class="text-center"> </th>
-        <th class="text-center"> </th>
-      </tr>
-
-      <!--repeateable Template row-->
-      <% for(let count = 0; count < SurveyList.length; count++) { %>
-        <tr>
-            <td class="text-center"><%= SurveyList[count].Survey_Name %></td>
-            <td class="text-center"><%= SurveyList[count].description %></td>
-            <td class="text-center"><%= SurveyList[count].createdDate %></td>
-            <td class="text-center"><%= SurveyList[count].Expiry_Date %></td>
-            <td class="text-center">
-              <a href="/surveylist/edit/<%= SurveyList[count]._id %>" class="btn btn-primary">
-              <i class="fas fa-pencil-alt"></i> Edit </a>  
-            </td>
-            <td class="text-center">
-            <a href="/surveylist/delete/<%= SurveyList[count]._id %>" class="btn btn-danger">
-            <i class="fas fa-trash-alt"></i>Delete</a>
-            </td>
-        </tr>
-      <% } %>
-    </table>
-  </div>
-</div>
-
-</main>
+Hi
 
 
-  
-  
+<!--&lt;!&ndash;Main content&ndash;&gt;-->
+
+<!--<main class = "container">-->
+<!--<div class="row">-->
+<!--  <div class="col-md-offset-3 col-md-20">-->
+<!--    <h1><%= title%></h1>-->
+
+<!--    <a href="/surveylist/add" class="btn btn-primary" role="button">-->
+<!--    <i class="fas fa-plus-circle"></i> Add Survey </a>-->
+<!--    <br>-->
+<!--    <table class="table table-bordered table-striped hover">-->
+<!--      &lt;!&ndash;HEader row&ndash;&gt;-->
+<!--      <tr>-->
+<!--        <th class="text-center">Survey Name</th>-->
+<!--        <th class="text-center">Desciption</th>-->
+<!--        <th class="text-center">Created Date</th>-->
+<!--        <th class="text-center">Expiry Date</th>-->
+<!--        <th class="text-center"> </th>-->
+<!--        <th class="text-center"> </th>-->
+<!--      </tr>-->
+
+<!--      &lt;!&ndash;repeateable Template row&ndash;&gt;-->
+<!--      <% for(let count = 0; count < SurveyList.length; count++) { %>-->
+<!--        <tr>-->
+<!--            <td class="text-center"><%= SurveyList[count].Survey_Name %></td>-->
+<!--            <td class="text-center"><%= SurveyList[count].description %></td>-->
+<!--            <td class="text-center"><%= SurveyList[count].createdDate %></td>-->
+<!--            <td class="text-center"><%= SurveyList[count].Expiry_Date %></td>-->
+<!--            <td class="text-center">-->
+<!--              <a href="/surveylist/edit/<%= SurveyList[count]._id %>" class="btn btn-primary">-->
+<!--              <i class="fas fa-pencil-alt"></i> Edit </a>  -->
+<!--            </td>-->
+<!--            <td class="text-center">-->
+<!--            <a href="/surveylist/delete/<%= SurveyList[count]._id %>" class="btn btn-danger">-->
+<!--            <i class="fas fa-trash-alt"></i>Delete</a>-->
+<!--            </td>-->
+<!--        </tr>-->
+<!--      <% } %>-->
+<!--    </table>-->
+<!--  </div>-->
+<!--</div>-->
+
+<!--</main>-->
 
 
-<%- include ../partials/footer.ejs %>
+<!--  -->
+<!--  -->
+
+
